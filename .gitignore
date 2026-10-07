@@ -1,0 +1,53 @@
+# General OS and IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log
+*.tmp
+*.bak
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Go
+server/bin/
+server/obj/
+server/*.exe
+server/*.exe~
+server/*.dll
+server/*.so
+server/*.dylib
+server/*.test
+server/*.out
+server/vendor/
+server/coverage.txt
+server/coverage.out
+
+# Flutter/Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# Generated API Client (ignore build artifacts if any, but usually we commit the generated code)
+packages/api_client/.dart_tool/
+packages/api_client/build/
+packages/api_client/.pub-cache/
+packages/api_client/.pub/
+
